@@ -9,7 +9,7 @@ Write a **class** called **CoffeeShop**, which has **three instance variables**:
 and **seven methods**:
 
 1.  **addOrder**: adds the **name** of the item to the end of the **orders** array if it exists on the **menu**. Otherwise, return `"This item is currently unavailable!"`
-2.  **fulfillOrder**: if the **orders** array is **not empty**, return `"The {item} is ready!"`. If the **orders** array is empty, return `"All orders have been fulfilled!"`
+2.  **fulfillOrder**: if the **orders** array is **not empty**, return`"The {item}  is ready!"`. If the **orders** array is empty, return `"All orders have been fulfilled!"`
 3.  **listOrders**: returns the list of **orders** taken, otherwise, an **empty** array.
 4.  **dueAmount**: returns the total amount due for the **orders** taken.
 5.  **cheapestItem**: returns the **name** of the cheapest item on the menu.
